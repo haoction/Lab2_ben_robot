@@ -1,0 +1,5 @@
+<launch>
+  <arg name= "name_space" />
+  <arg name= "topic_name" />
+  <node name= "ben_robot" pkg= "ben_robot" type= "ben_robot" ns= "$(arg name_space)" args= "$(arg topic_name)" output= "screen"/> 
+</launch>
